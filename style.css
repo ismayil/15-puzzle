@@ -1,0 +1,32 @@
+#root {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+
+.drop {
+    width: 120px;
+    background: grey;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 120px;
+}
+
+.drag {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: yellow;
+    border-radius: 10px;
+    font-size: 26px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
